@@ -1,0 +1,20 @@
+supervisor: couldn't chdir to /home/dell/Documents/GOLANG/BoilerPlate: ENOENT
+supervisor: child process was not spawned
+supervisor: couldn't chdir to /home/dell/Documents/GOLANG/BoilerPlate: ENOENT
+supervisor: child process was not spawned
+supervisor: couldn't chdir to /home/dell/Documents/GOLANG/BoilerPlate: ENOENT
+supervisor: child process was not spawned
+supervisor: couldn't chdir to /home/dell/Documents/GOLANG/BoilerPlate: ENOENT
+supervisor: child process was not spawned
+{"level":"info","msg":"try service","time":"2023-01-15T16:52:19+07:00"}
+{"level":"info","msg":"try service","time":"2023-01-15T16:52:20+07:00"}
+{"level":"info","msg":"try service","time":"2023-01-15T16:52:23+07:00"}
+{"level":"info","msg":"try service","time":"2023-01-15T16:52:26+07:00"}
+{"level":"info","msg":"try service","time":"2023-01-15T16:54:53+07:00"}
+{"level":"info","msg":"try service","time":"2023-01-15T16:54:54+07:00"}
+{"level":"info","msg":"try service","time":"2023-01-15T16:54:56+07:00"}
+{"level":"info","msg":"try service","time":"2023-01-15T16:54:59+07:00"}
+{"level":"info","msg":"try service","time":"2023-01-15T16:55:28+07:00"}
+{"level":"info","msg":"try service","time":"2023-01-15T16:55:29+07:00"}
+{"level":"info","msg":"try service","time":"2023-01-15T16:55:31+07:00"}
+{"level":"info","msg":"try service","time":"2023-01-15T16:55:34+07:00"}

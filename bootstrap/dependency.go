@@ -30,3 +30,8 @@ func (dep *Dependency) GetDB(db *sqlx.DB) *sqlx.DB {
 	}
 	return dep.db
 }
+
+func (dep *Dependency) Initialize() error {
+	//do something
+	return nil
+}
