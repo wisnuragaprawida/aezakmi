@@ -2,4 +2,4 @@ env: development
 host: 
   address: ":8080"
 database:
-  write: "postgres://<username>:<password>@<ip>:<port>/<project>"
+  write: "postgres://root:root@localhost:5432/project"
