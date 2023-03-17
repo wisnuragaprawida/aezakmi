@@ -46,7 +46,7 @@ func (e *Error) Error() string {
 	if e.Message == "" {
 		e.Message = Message(e.Code)
 	}
-	return fmt.Sprintf("%s: %s", e.Code, e.Message)
+	return fmt.Sprintf("%s: %s", e.Message, e.Code)
 }
 
 func (e Error) Unwrap() error {

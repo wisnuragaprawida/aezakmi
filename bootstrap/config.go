@@ -8,8 +8,9 @@ import (
 )
 
 type Config struct {
-	Env  string `yaml:"env"`
-	Host struct {
+	EncKey string `yaml:"enc_key"`
+	Env    string `yaml:"env"`
+	Host   struct {
 		Address string `yaml:"address"`
 	} `yaml:"host"`
 	Database struct {

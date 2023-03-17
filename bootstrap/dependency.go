@@ -24,7 +24,7 @@ func (dep *Dependency) GetConfig() Config {
 	return dep.cfg
 }
 
-func (dep *Dependency) GetDB(db *sqlx.DB) *sqlx.DB {
+func (dep *Dependency) GetDB() *sqlx.DB {
 	if dep.db == nil {
 		dep.db = otsql.SqlMustConnect(dep.GetConfig().Database.Write)
 	}
